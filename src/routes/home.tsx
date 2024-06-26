@@ -39,35 +39,22 @@ export function Home() {
             </h1>
 
             <h1 className="text-main-text text-2xl font-semibold mt-1 max-sm:mt-0">
-              gostaria de vir em um date comigo?
+              Aliquip cupidatat non sunt minim?
             </h1>
 
             <h1 className="text-main-text text-sm font-semibold mt-10">
-              Razões para ir dar uma volta comigo 😌
+              Velit non in culpa amet fugiat 😌
             </h1>
 
             <p className="text-slate-600 text-sm font-thin mt-1">
-              Caso esteja se perguntando quais as vantagens de sair comigo, são
-              várias 😎
-            </p>
-
-            <p className="text-slate-600 text-sm font-thin mt-1">
-              Sou um cara super romântico, educado e de boa família 🌹
-            </p>
-
-            <p className="text-slate-600 text-sm font-thin">
-              Vou te levar para passear em lugares legais, e eu tentarei sempre
-              te fazer rir 😄
-            </p>
-
-            <p className="text-slate-600 text-sm font-thin">
-              E claro que não esquecerei a comida 🍔, vou escolher algo bem
-              especial para gente comer
-            </p>
-
-            <p className="text-slate-600 text-sm font-thin">
-              Também terei o cuidado de ir te buscar em casa e te levar de volta
-              em segurança 🚗
+              Anim reprehenderit aliqua eu ex velit est occaecat excepteur est
+              sunt sint esse. Velit qui voluptate reprehenderit officia magna
+              pariatur anim esse do elit aliquip magna officia. Commodo Lorem
+              pariatur voluptate adipisicing elit do eiusmod fugiat dolor ea.
+              Excepteur id minim consectetur est adipisicing consectetur labore
+              amet veniam dolore minim eu dolore eu. Reprehenderit laborum
+              officia pariatur magna pariatur. Aliqua sit pariatur ea
+              reprehenderit esse tempor sint dolore sint.
             </p>
           </div>
 

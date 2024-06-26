@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+<h1 align="center">YES or NO prank</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About this Project
 
-Currently, two official plugins are available:
+The project is a web page that will display a question, and the options "YES" or "NO".
+When trying to select "NO", the button will move randomly on the page, preventing the selection of that option, leaving only "YES" to be selected.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project presentation
 
-## Expanding the ESLint configuration
+<img
+  alt="yesOrNo"
+  title="YesOrNo' presentation gif"
+  src="./src/assets/presentationGif.gif"
+  height="425"
+/>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Used Techs
 
-- Configure the top-level `parserOptions` property like this:
+- Lucide: Open source icon set, used to easily and efficiently add icons to web projects.
+- Vite: Build tool and development server for front-end projects, designed to provide fast and efficient development.
+- Tailwind: Utility CSS framework that allows developers to quickly create user interfaces (UI) using predefined utility classes.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# How to run the project
+
+Node version used: v20.9.0
+
+## Application
+
+```bash
+# To install project dependencies
+yarn
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+# Run the application on localhost -> http://localhost:5173
+yarn dev
+```
+
+# Author
+
+Made with 💚 by Guilherme Bafica 👋
+
+[![LinkedIn Badge](https://img.shields.io/badge/-GuilhermeBafica-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilhermebafica/)](https://www.linkedin.com/in/guilhermebafica/)

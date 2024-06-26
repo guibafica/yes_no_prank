@@ -43,12 +43,13 @@ export function Accepted() {
           </div>
 
           <p className="text-slate-700 text-base font-thin mt-6 w-2/4 z-10 max-sm:text-center max-sm:w-11/12">
-            Então agora estamos oficialmente saindo 💐
-          </p>
-
-          <p className="text-slate-700 text-base font-thin w-2/4 z-10 max-sm:text-center max-sm:w-11/12">
-            Se arrume bem linda, (não que seja possível você ficar mais linda
-            ainda 😍), pois mais tarde eu estou passando ai pra te buscar 😎
+            Do consequat voluptate laborum tempor dolor irure sit dolor minim
+            veniam quis duis. Incididunt commodo cupidatat amet aliqua do. Nisi
+            labore duis nostrud do labore tempor. Aliqua culpa cillum velit do
+            cupidatat ipsum officia officia nisi deserunt esse. Labore elit nisi
+            ullamco deserunt. Occaecat exercitation est proident amet nostrud
+            officia consectetur exercitation excepteur est quis. Anim incididunt
+            velit esse ut sint magna Lorem amet qui nisi.
           </p>
         </div>
       </div>
