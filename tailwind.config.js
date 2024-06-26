@@ -3,9 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Dosis", "sans-serif"],
+      },
       colors: {
         "main-red": "#F2575F",
-        "waves-bg": "#d8e0f3",
+        "main-text": "#1E304B",
+        "waves-bg": "#D8E0F3",
       },
     },
   },
