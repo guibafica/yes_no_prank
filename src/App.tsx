@@ -50,7 +50,7 @@ function App() {
           </div>
 
           <div className="flex flex-row w-full items-center justify-start gap-8 mt-32 max-sm:mt-8">
-            <button className="flex flex-row items-center justify-center bg-green-500 w-40 h-10 rounded-lg transition-all text-2xl font-bold text-slate-100 hover:bg-green-600 hover:shadow-xl">
+            <button className="flex flex-row items-center justify-center bg-green-500 w-40 h-10 rounded-lg transition-all text-2xl font-bold text-slate-100 shadow-lg hover:bg-green-600 hover:shadow-xl">
               SIM <Smile className="ml-2" />
             </button>
 
@@ -58,7 +58,7 @@ function App() {
               id="noButtonId"
               onClick={handleRandomMoveNoButton}
               onMouseEnter={handleRandomMoveNoButton}
-              className="flex flex-row items-center justify-center bg-main-red w-40 h-10 rounded-lg transition-all text-2xl font-bold text-slate-100 hover:bg-red-600 hover:shadow-xl"
+              className="flex flex-row items-center justify-center bg-main-red w-40 h-10 rounded-lg transition-all text-2xl font-bold text-slate-100 shadow-lg hover:bg-red-600 hover:shadow-xl"
             >
               NÃO <Frown className="ml-2" />
             </button>
