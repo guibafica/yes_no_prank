@@ -20,6 +20,10 @@ When trying to select "NO", the button will move randomly on the page, preventin
 - Vite: Build tool and development server for front-end projects, designed to provide fast and efficient development.
 - Tailwind: Utility CSS framework that allows developers to quickly create user interfaces (UI) using predefined utility classes.
 
+## Live demo
+
+- To test the final project, [CLICK HERE](https://sim-ou-nao.vercel.app/).
+
 # How to run the project
 
 Node version used: v20.9.0
