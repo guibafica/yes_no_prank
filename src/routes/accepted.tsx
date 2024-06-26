@@ -22,8 +22,8 @@ export function Accepted() {
         <Balloons />
 
         {/* <audio ref={audioRef}>
-        <source src={romanticMusic} type="audio/mp3" />
-      </audio> */}
+          <source src={romanticMusic} type="audio/mp3" />
+        </audio> */}
 
         <div className="bg-slate-100 w-screen h-screen flex items-center justify-center flex-col">
           <div className="size-64 z-10 shadow-2xl rounded-full overflow-hidden flex items-center justify-center">
