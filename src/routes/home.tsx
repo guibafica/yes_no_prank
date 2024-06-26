@@ -28,7 +28,7 @@ export function Home() {
   }, [navigate]);
 
   return (
-    <div className="overflow-hidden">
+    <div className="relative overflow-hidden">
       <Waves />
 
       <div className="bg-slate-100 w-screen h-screen flex items-center justify-between flex-row max-sm:flex-col max-sm:pt-4">
@@ -52,7 +52,7 @@ export function Home() {
             </p>
 
             <p className="text-slate-600 text-sm font-thin mt-1">
-              Sou um cara super romântico, educando e de boa família 🌹
+              Sou um cara super romântico, educado e de boa família 🌹
             </p>
 
             <p className="text-slate-600 text-sm font-thin">

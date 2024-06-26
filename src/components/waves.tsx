@@ -20,6 +20,16 @@ export function Waves() {
         }}
       />
 
+      {/* <div className="w-screen h-screen relative overflow-hidden">
+        <div
+          className="w-[600px] h-56 absolute -right-52 top-0"
+          style={{
+            backgroundImage: `url(${wave2})`,
+            backgroundRepeat: "no-repeat",
+          }}
+        />
+      </div> */}
+
       {/* wave 3 */}
       <div
         className="w-[600px] h-56 absolute -right-52 top-0"
@@ -31,7 +41,7 @@ export function Waves() {
 
       {/* wave 4 */}
       <div
-        className="w-[600px] h-56 rotate-90 absolute -right-48 "
+        className="w-[600px] h-56 rotate-90 absolute -right-48"
         style={{
           backgroundImage: `url(${wave3})`,
           backgroundRepeat: "no-repeat",

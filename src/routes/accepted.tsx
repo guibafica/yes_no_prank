@@ -17,7 +17,7 @@ export function Accepted() {
 
   return (
     <>
-      <div className="overflow-hidden">
+      <div className="overflow-hidden relative">
         <Waves />
         <Balloons />
 
