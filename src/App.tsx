@@ -65,8 +65,8 @@ function App() {
           </div>
         </div>
 
-        <div className="w-2/4 h-full flex flex-col items-center justify-center z-10 pr-10 max-sm:h-2/4 max-sm:pr-0 max-sm:w-full ">
-          <img src={questionSvg} alt="question svg" className="w-4/5 ml-10" />
+        <div className="w-2/4 h-full flex flex-col items-center justify-center  pr-10 max-sm:h-2/4 max-sm:pr-0 max-sm:w-full ">
+          <img src={questionSvg} alt="question svg" className="w-4/5 ml-10 " />
         </div>
       </div>
     </div>
