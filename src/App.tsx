@@ -1,7 +1,23 @@
+import { useCallback } from "react";
+
 import { Waves } from "./components/waves";
 
 function App() {
   // https://static.vecteezy.com/system/resources/previews/024/791/093/non_2x/questions-and-answers-find-decision-problem-solving-and-qa-business-decisions-landing-page-isometric-illustration-vector.jpg
+
+  const handleRandomMoveNoButton = useCallback(() => {
+    const noButtonElement = document.getElementById("noButtonId")!;
+    const screenHeight = document.documentElement.clientHeight;
+    const screenWidth = document.documentElement.clientWidth;
+
+    const randomY = Math.floor(Math.random() * screenHeight + 1);
+    const randomX = Math.floor(Math.random() * screenWidth + 1);
+
+    noButtonElement.style.position = "absolute";
+
+    noButtonElement.style.top = randomY + "px";
+    noButtonElement.style.right = randomX + "px";
+  }, []);
 
   return (
     <div className="overflow-hidden">
@@ -17,7 +33,12 @@ function App() {
             SIM :)
           </button>
 
-          <button className="bg-red-500 w-40 h-10 rounded-sm transition-all text-2xl font-bold text-slate-900 hover:bg-red-600">
+          <button
+            id="noButtonId"
+            onClick={handleRandomMoveNoButton}
+            onMouseEnter={handleRandomMoveNoButton}
+            className="bg-red-500 w-40 h-10 rounded-sm transition-all text-2xl font-bold text-slate-900 hover:bg-red-600"
+          >
             NÃO :(
           </button>
         </div>
