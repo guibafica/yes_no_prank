@@ -26,18 +26,18 @@ function App() {
     <div className="overflow-hidden">
       <Waves />
 
-      <div className="bg-slate-100 w-screen h-screen flex items-center justify-between flex-row">
-        <div className="w-2/4 h-full flex flex-col items-center justify-between pl-36 py-[25%]">
+      <div className="bg-slate-100 w-screen h-screen flex items-center justify-between flex-row max-sm:flex-col">
+        <div className="w-2/4 flex flex-col items-center justify-between z-10 pl-36 py-[25%] max-sm:pl-0 max-sm:h-2/4 max-sm:justify-center max-sm:mt-[20%] ">
           <div className="w-full flex flex-col items-start justify-start">
             <h1 className="text-main-text text-left text-8xl font-bold -ml-2">
               Oi,
             </h1>
 
-            <h1 className="text-main-text text-xl font-semibold mt-1">
+            <h1 className="text-main-text text-xl font-semibold mt-1 max-sm:mt-0">
               Ea elit elit est commodo cupidatat voluptate?
             </h1>
 
-            <p className="text-slate-600 text-sm font-thin mt-8">
+            <p className="text-slate-600 text-sm font-thin mt-8 max-sm:mt-4">
               Non ad veniam tempor anim fugiat eu sunt fugiat nulla amet in
               culpa. Proident nisi ex deserunt irure ut laboris id aliqua
               excepteur in eiusmod nisi sunt. Ipsum labore nisi culpa aliquip
@@ -49,7 +49,7 @@ function App() {
             </p>
           </div>
 
-          <div className="flex flex-row w-full items-center justify-start gap-8 mt-32">
+          <div className="flex flex-row w-full items-center justify-start gap-8 mt-32 max-sm:mt-8">
             <button className="flex flex-row items-center justify-center bg-green-500 w-40 h-10 rounded-lg transition-all text-2xl font-bold text-slate-100 hover:bg-green-600 hover:shadow-xl">
               SIM <Smile className="ml-2" />
             </button>
@@ -65,8 +65,8 @@ function App() {
           </div>
         </div>
 
-        <div className="w-2/4 h-full flex flex-col items-center justify-center pr-10 ">
-          <img src={questionSvg} alt="question svg" className="" />
+        <div className="w-2/4 h-full flex flex-col items-center justify-center z-10 pr-10 max-sm:h-2/4 max-sm:pr-0 max-sm:w-full ">
+          <img src={questionSvg} alt="question svg" className="w-4/5 ml-10" />
         </div>
       </div>
     </div>
