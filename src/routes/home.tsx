@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import { Frown, Smile, Heart } from "lucide-react";
+import { Frown, Smile } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 import { Waves } from "../components/waves";
