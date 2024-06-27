@@ -35,7 +35,7 @@ export function Accepted() {
             <h1 className="text-3xl ml-1 mr-4">😉</h1>
 
             <h1 className="text-main-text text-3xl font-semibold text-center">
-              Sabia que iria escolher SIM
+              I knew I would choose YES
             </h1>
 
             <h1 className="text-3xl  ml-4 mr-1">😏</h1>

@@ -35,7 +35,7 @@ export function Home() {
         <div className="w-2/4 flex flex-col items-center justify-between z-10 pl-36 py-[25%] max-sm:pl-0 max-sm:h-3/4 max-sm:justify-center max-sm:mt-[20%]">
           <div className="w-full flex flex-col items-start justify-start">
             <h1 className="text-main-text text-left text-8xl font-bold -ml-2">
-              Oi,
+              Hi,
             </h1>
 
             <h1 className="text-main-text text-2xl font-semibold mt-1 max-sm:mt-0">
@@ -63,7 +63,7 @@ export function Home() {
               onClick={handleClickOnYesButton}
               className="flex flex-row items-center justify-center bg-green-500 w-40 h-10 rounded-lg transition-all text-2xl font-bold text-slate-100 shadow-lg hover:bg-green-600 hover:shadow-xl max-sm:w-52"
             >
-              SIM <Smile className="ml-2" />
+              YES <Smile className="ml-2" />
             </button>
 
             <button
@@ -72,7 +72,7 @@ export function Home() {
               onMouseEnter={handleRandomMoveNoButton}
               className="flex z-20 flex-row items-center justify-center bg-main-red w-40 h-10 rounded-lg transition-all text-2xl font-bold text-slate-100 shadow-lg hover:bg-red-600 hover:shadow-xl max-sm:w-52"
             >
-              NÃO <Frown className="ml-2" />
+              NO <Frown className="ml-2" />
             </button>
           </div>
         </div>
